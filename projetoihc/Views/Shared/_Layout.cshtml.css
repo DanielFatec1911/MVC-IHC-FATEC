@@ -1,0 +1,108 @@
+﻿
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff; 
+    border-bottom: 1px solid #e1e1e1; 
+}
+
+    header .navbar {
+        padding: 0.5rem 1rem; 
+    }
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff; 
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; 
+}
+
+
+.nav-item .nav-link {
+    color: #007bff;
+}
+
+    .nav-item .nav-link:hover {
+        color: #0056b3; 
+    }
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem; 
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-top: 1px solid #e1e1e1;
+}
+
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer a {
+        color: #007bff; 
+    }
+
+        footer a:hover {
+            color: #0056b3;
+        }
+
+
+main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #ffffff; 
+    border-top: 1px solid #e1e1e1;
+}
+
+
+.navbar-collapse {
+    justify-content: flex-end; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+    .navbar-nav .nav-item {
+        margin-right: 20px; 
+    }
+
+
+.navbar-toggler {
+    border-color: #007bff; 
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+}
